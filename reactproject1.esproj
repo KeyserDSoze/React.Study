@@ -15,6 +15,7 @@
     <Folder Include="src\Components\Generics\" />
     <Folder Include="src\Components\PositionWithLiteral\" />
     <Folder Include="src\Components\RestrictionWithNever\" />
+    <Folder Include="src\Hooks\" />
     <Folder Include="src\Theme\" />
   </ItemGroup>
 </Project>

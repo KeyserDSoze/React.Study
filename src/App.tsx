@@ -20,6 +20,9 @@ import { InformalText } from './Components/Polymorphic/InformalText';
 import { Toast } from './Components/PositionWithLiteral/Toast';
 import { NumberShower } from './Components/RestrictionWithNever/NumberShower';
 import { TimerOne } from './Components/Timer';
+import { CallingApi } from './Hooks/CallingApi';
+import CounterPlusOne from './Hooks/Effecto';
+import MouseEventHolder from './Hooks/MouseEventHolder';
 import { ThemeContextProvider } from './Theme/ThemeContext';
 import { WrappedInContext } from './Theme/WrappedInContext';
 
@@ -92,6 +95,9 @@ function App() {
             <InformalText asElement="label" htmlFor="someId" size="sm" color="secondary">
                 Label
             </InformalText>
+            <CounterPlusOne></CounterPlusOne>
+            <MouseEventHolder></MouseEventHolder>
+            <CallingApi></CallingApi>
         </div>
     );
 }
